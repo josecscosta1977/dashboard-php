@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.base {
+	width: 97%;
+	margin: auto;
+	height: 100%;
+	margin-top: 10px;
+}
+.cabecalho {
+	color: white;
+	width: 100%;
+	margin: auto;
+    background-color: #3366cc;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.texto-cor {
+	color: #3366cc; 
+}
+.link {
+    color: white;
+}
+.tamanho {
+    font-size: 30px;
+    color: #dc3912;
+    margin-top: 10px;
+}
+.secao_principal {
+	width: 100%;
+	margin: auto;
+}
+.linha {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+.secao-secundaria-1 {
+	width: 74.8%;
+}	
+.secao-secundaria {
+	width: 24.5%;
+}
+.secao-secundaria-2 {
+	width: 74.8%;
+}
+.centro {
+	text-align: center;
+}
+.margem {
+	margin-top: 30px;
+}
+.rodape {
+	color: white;
+	width: 100%;
+	margin: auto;
+    background-color: #3366cc;
+	padding-bottom: 10px;
+	text-align: center;
+	
+}
+@media only screen and (max-width: 1000px) {
+	.base {
+		width: 97%;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.cabecalho {
+		margin-bottom: 20px;
+		width: 100%;
+        text-align: center;
+	}
+	.linha {
+		display: inline;
+	}
+	.secao-secundaria {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.secao-secundaria-1 {
+		width: 100%;
+	}
+	.secao-secundaria-2 {
+		width: 100%;
+	}
+	
+}
